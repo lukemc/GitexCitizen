@@ -1,34 +1,29 @@
 CACHE MANIFEST
-# 2015-10-14 16:17
+# 2015-10-14 18:24
 
 CACHE:
+img/desert.jpg
+img/pothole.jpg
+img/khalifa.jpg
 favicon.png
 index.html
 manifest.json
 css/fonts.css
 css/materialize.min.css
 css/style.css
+form1.html
+form2.html
+form3.html
 img/map.png
-img/mipmap-hdpi/ic_launcher.png
-img/mipmap-mdpi/ic_launcher.png
-img/mipmap-xhdpi/ic_launcher.png
-img/mipmap-xxhdpi/ic_launcher.png
-img/mipmap-xxxhdpi/ic_launcher.png
-img/sgn-logo.jpg
 js/index.js
 js/jquery.min.js
 js/materialize.min.js
 js/parse.min.js
-form1.html
-form2.html
-form3.html
-img/desert.jpg
-img/pothole.jpg
-img/khalifa.jpg
 img/mall.jpg
 img/fountain.jpg
 js/form3.js
 data.json
+
 
 font/material-design-icons/Material-Design-Icons.eot
 font/material-design-icons/Material-Design-Icons.svg
@@ -52,6 +47,12 @@ font/roboto/Roboto-Regular.woff2
 font/roboto/Roboto-Thin.ttf
 font/roboto/Roboto-Thin.woff
 font/roboto/Roboto-Thin.woff2
+
+img/mipmap-hdpi/ic_launcher.png
+img/mipmap-mdpi/ic_launcher.png
+img/mipmap-xhdpi/ic_launcher.png
+img/mipmap-xxhdpi/ic_launcher.png
+img/mipmap-xxxhdpi/ic_launcher.png
 
 NETWORK:
 *
