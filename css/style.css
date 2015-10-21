@@ -1,0 +1,45 @@
+.sgn-blue {
+  background-color: #012249;
+}
+
+.sgn-orange {
+  background-color: #EF663B;
+}
+
+.sgn-orange-text {
+  color: #EF663B;
+}
+
+.no-margin-or-padding {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.thumbnail {
+  background-color: #CCC;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 117px;
+  height: 117px;
+  margin: 5px 5px 5px 0px;
+  background-size: cover;
+  -moz-background-size: cover;
+}
+
+.thumbnail-text {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+
+video {
+  width: 100%;
+}
+
+logo {
+  max-width: 40px;
+  max-height: 40px;
+}
