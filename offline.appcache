@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2015-10-14 18:24
+# 2015-10-21 18:26
 
 CACHE:
 img/desert.jpg
@@ -23,6 +23,9 @@ img/mall.jpg
 img/fountain.jpg
 js/form3.js
 data.json
+js/form3detail.js
+form3detail.html
+
 
 
 font/material-design-icons/Material-Design-Icons.eot
