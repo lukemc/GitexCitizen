@@ -3,7 +3,7 @@
 
 <head>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/form3.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
 	<title>Smart Dubai</title>
@@ -21,11 +21,9 @@
 			<div class="nav-wrapper container">
 				<a id="logo-container" href="#" class="brand-logo">Smart Dubai</a>
 				<ul class="right">
-					<li><a id="submit" href="#" class="hide-on-med-and-down waves-effect waves-light btn" href="#" onclick="submit();">Upload</a></li>
+
 					<li>
-						<a id="submit" href="#" data-activates="nav-mobile" class="button-collapse" href="#" onclick="submit();">
-							<i class="material-icons teal-text">&#xE163;</i>
-						</a>
+
 					</li>
 				</ul>
 			</div>
@@ -33,68 +31,9 @@
 	</div>
 	<br>
 	<div class="container">
-		<div id="photos" class="column" style="display: none;">
-			<div class="col s12 m6">
-				<div class="card grey lighten-4">
-					<div class="card-content">
-						<span class="card-title black-text">Photos</span>
-						<div id="photos-content">
-							<video id="video" style="display: none;" autoplay></video>
-							<a class="waves-effect waves-light btn" id="new" href="#" onclick="openCamera();"><i class="material-icons">&#xE145;</i></a>
-							<a class="waves-light btn" id="snap" href="#" style="display: none;" onclick="takePhoto();"><i class="material-icons">&#xE412;</i></a>
-							<a class="waves-effect waves-light btn" id="switch" href="#" style="display: none;" onclick="cycleCameras();"><i class="material-icons">&#xE41E;</i></a>
-							<br>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="column">
-			<div class="col s12 m6">
-				<div class="card grey lighten-4">
-					<div class="card-content">
-						<span class="card-title black-text">Details</span>
-						<form>
-							<div class="row">
-								<div class="input-field col s12">
-									<input id="reference_number" type="text">
-									<label for="reference_number">Reference Number</label>
-								</div>
-							</div>
-							<div class="row">
-								<div class="input-field col s12">
-									<input id="address" type="text">
-									<label for="address">Address</label>
-								</div>
-							</div>
-							<div class="row">
-								<div class="input-field col s12">
-									<input id="post_code" type="text">
-									<label for="post_code">Post Code</label>
-								</div>
-							</div>
-							<div class="row">
-								<div class="input-field col s12">
-									<input id="comments" type="text">
-									<label for="comments">Comments</label>
-								</div>
-							</div>
-							<div class="row">
-								<div class="input-field col s12">
-									<input id="location" type="text">
-									<label for="location"></label>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col s12">
-									<img id="map" style="display: none;" class="responsive-img" src="img/map.png"></img>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
+		<div id = "attractions" class="collection">
+
+    </div>
 	</div>
 
 	<script type="text/javascript" src="js/materialize.min.js"></script>
